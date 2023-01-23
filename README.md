@@ -3,7 +3,9 @@
 This is a React FE application that provides information about the latest prices of Sugar from the 
 Jumia websites in Kenya, Uganda and Nigeria. abs
 
-The data is scraped every four hours. 
+The data is scraped four times a day.
+
+The live application can be found at https://kuleasugarindex-3p8iqybmn-delabi.vercel.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

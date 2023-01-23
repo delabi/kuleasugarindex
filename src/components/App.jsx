@@ -13,7 +13,9 @@ const App = () => {
   useEffect(() => {
     const fetchSugars = async () => {
       let response = await client.get("/sugars");
-      setSugars(response.data.reverse());
+      setSugars(response.data.sort((a, b) =>
+      a.id < b.id ? 1 : -1
+      ));
     };
     fetchSugars().catch((error) => {
       console.error(error);

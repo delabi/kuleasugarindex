@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import "./index.css";
-require("dotenv").config();
+// require("dotenv").config();
 
 const client = axios.create({
   baseURL: "https://sugar-scraper.onrender.com",
